@@ -84,4 +84,7 @@ To enable kv secrets along a path:
 vault secrets enable -path=secrets kv
 ```
 
+# NB
+Value for -path can be customized depending on the need
+
 **Please note that this will be the Vault server we will use through out the course, keep the root key and unseal key in a safe place.**
