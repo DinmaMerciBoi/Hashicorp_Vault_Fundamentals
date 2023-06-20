@@ -76,6 +76,8 @@ Open a third terminal and check the logs:
 tail -f ./logs/vault_audit.log | jq
 ```
 
+## Enable secrets
+
 To enable kv secrets along a path:
 
 ```bash
