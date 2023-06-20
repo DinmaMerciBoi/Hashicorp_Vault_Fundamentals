@@ -76,4 +76,10 @@ Open a third terminal and check the logs:
 tail -f ./logs/vault_audit.log | jq
 ```
 
+To enable kv secrets along a path:
+
+```bash
+vault secrets enable -path=secrets kv
+```
+
 **Please note that this will be the Vault server we will use through out the course, keep the root key and unseal key in a safe place.**
